@@ -14,7 +14,11 @@
 
 ## 👨‍💻 About Me
 
-<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=02569B&center=true&vCenter=true&width=800&height=28&lines=Flutter+Developer+from+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;Building+production-ready+mobile+apps+since+2023;GSoC+2026+Applicant+%E2%80%94+Dart+%7C+Flutter+DevTools;WebSocket+%2B+gRPC+Network+Profiling+for+DevTools;Clean+Architecture+%7C+Firebase+%7C+REST+APIs;Open+to+Remote+%7C+Freelance+%7C+Full-Time+%F0%9F%9A%80" alt="About Typing" />
+</div>
+
+<br/>
 
 ```dart
 class Abdullah extends FlutterDeveloper {
@@ -23,8 +27,14 @@ class Abdullah extends FlutterDeveloper {
   final String role     = "Full Stack Flutter Developer";
   final String location = "Karachi, Pakistan 🇵🇰";
 
+  final Map<String, String> gsoc2026 = {
+    "org"     : "Dart",
+    "project" : "WebSocket/gRPC Support — Flutter DevTools",
+    "status"  : "Actively contributing 🔥",
+  };
+
   final List<String> currentFocus = [
-    "GSoC 2026 — Dart DevTools",
+    "GSoC 2026 — Dart DevTools Network Panel",
     "WebSocket/gRPC Network Profiling",
     "Mobile POS Systems",
   ];
@@ -40,10 +50,6 @@ class Abdullah extends FlutterDeveloper {
     "I digitize local shops one app at a time 🏪";
 }
 ```
-
-<br clear="right"/>
-
-I'm a Flutter developer from Karachi building production-ready mobile apps with clean architecture. Currently applying for **Google Summer of Code 2026** with the Dart organization — working on WebSocket/gRPC support for Flutter DevTools.
 
 ---
 
