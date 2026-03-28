@@ -1,27 +1,84 @@
-# 💫 About Me:
-🚀 I’m currently working on  <br>Full-Stack Mobile Applications using Flutter & Firebase, along with backend systems in C# (.NET) and Python.<br><br>🤝 I’m looking to collaborate on  <br>Open-source projects related to Mobile App Development, Computer Vision, and scalable backend systems.<br><br>🧠 I’m looking for help with  <br>Advanced system design, large-scale architecture, and performance optimization for cross-platform apps.<br><br>🌱 I’m currently learning  <br>Advanced Flutter architectures, Firebase cloud services, and improving backend scalability.<br><br>💬 Ask me about  <br>C#, Python, Flutter, Firebase, Computer Vision, MySQL, APIs, and Full-Stack Mobile Development.<br><br>⚡ Fun fact  <br>I believe trading and computer science share the same core skill: disciplined decision-making under uncertainty.<br>
+# Hi, I'm Abdullah Arain 👋
+### Flutter Developer | GSoC 2026 Applicant | Dart Contributor
 
-
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/abdullah__fx) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abdullah_arain999) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/abdullah-arain123) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abdulla69012822) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:arainabdullah225@gmail.com) 
-
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=abdullah-arain9&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=abdullah-arain9&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=abdullah-arain9&limit=5&theme=dark&combine_all_yearly_contributions=true)
+📍 Karachi, Pakistan
 
 ---
-[![](https://visitcount.itsvg.in/api?id=abdullah-arain9&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## About Me
+
+I am a Full Stack Flutter Developer with hands-on experience
+building scalable mobile applications. Currently applying for
+**Google Summer of Code 2026** with the Dart organization —
+working on WebSocket/gRPC support for Flutter DevTools.
+
+---
+
+## GSoC 2026 Sample Project
+
+> Add WebSocket/gRPC Support to Flutter DevTools Network Panel
+
+Built a working instrumentation layer using dart:developer
+Timeline — same mechanism HTTP profiling uses in dart:io today.
+
+🔗 [websocket-devtools-profiler](https://github.com/abdullah-arain9/websocket-devtools-profiler)
+```
+ID   TIME           DIR    BYTES   ELAPSED
+1    14:06:41.786   sent   20B     +22274ms   hello GSOC community
+2    14:06:42.196   recv   20B     +22684ms   hello GSOC community
+```
+
+✅ 9 unit tests passing  
+✅ dart:developer Timeline integration  
+✅ Zero external dependencies  
+
+---
+
+## Tech Stack
+
+**Mobile**
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+
+**Backend**
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+
+**Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
+
+---
+
+## Projects
+
+### Developer Invoice Tracker
+Mobile POS and Shop Management App for local shopkeepers.
+
+- Product Management
+- Daily Sales Management  
+- Invoice Generation
+- POS Bill Printing
+- Thermal Printer Integration
+
+**Stack:** Flutter, Dart, Firebase, Provider
+
+---
+
+## GitHub Stats
+
+![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark)
+
+---
+
+## Connect
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:abdullah@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abdullah-arain9)
+
+---
+
+> Currently focused on open source contribution through GSoC 2026
+> with the Dart organization.
