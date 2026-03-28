@@ -1,84 +1,93 @@
 # Hi, I'm Abdullah Arain 👋
-### Flutter Developer | GSoC 2026 Applicant | Dart Contributor
 
-📍 Karachi, Pakistan
+![Profile Views](https://komarev.com/ghpvc/?username=abdullah-arain9&label=Profile%20Views&color=0e75b6&style=flat-square)
+
+💻 Flutter Developer | GSoC 2026 Applicant | Dart Open Source Contributor  
+Building scalable, production-ready mobile applications with clean architecture and real-world impact.
 
 ---
 
 ## About Me
 
-I am a Full Stack Flutter Developer with hands-on experience
-building scalable mobile applications. Currently applying for
-**Google Summer of Code 2026** with the Dart organization —
-working on WebSocket/gRPC support for Flutter DevTools.
+I am **Abdullah Arain**, a **Full Stack Flutter Developer** from **Karachi, Pakistan** with hands-on experience building production-level mobile applications using **Flutter and Dart**.
 
----
+Currently applying for **Google Summer of Code 2026** with the **Dart organization** — working on adding **WebSocket/gRPC support** to the Flutter DevTools Network Panel.
 
-## GSoC 2026 Sample Project
-
-> Add WebSocket/gRPC Support to Flutter DevTools Network Panel
-
-Built a working instrumentation layer using dart:developer
-Timeline — same mechanism HTTP profiling uses in dart:io today.
-
-🔗 [websocket-devtools-profiler](https://github.com/abdullah-arain9/websocket-devtools-profiler)
-```
-ID   TIME           DIR    BYTES   ELAPSED
-1    14:06:41.786   sent   20B     +22274ms   hello GSOC community
-2    14:06:42.196   recv   20B     +22684ms   hello GSOC community
-```
-
-✅ 9 unit tests passing  
-✅ dart:developer Timeline integration  
-✅ Zero external dependencies  
+Alongside app development, I have shipped real-world business solutions including a **Mobile POS and Shop Management System** used by local shopkeepers to digitize their operations.
 
 ---
 
 ## Tech Stack
 
-**Mobile**
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-
-**Backend**
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
+- **Mobile:** Flutter, Dart, Responsive UI, Material Design, Custom Widgets
+- **State Management:** Provider, ChangeNotifier, App State Management
+- **Backend & Services:** Firebase Auth, Cloud Firestore, Firebase Storage, Realtime Database
+- **API:** REST API Integration, JSON Parsing, HTTP Requests
+- **Database:** Firestore, Hive, SQLite, Local Storage
+- **Architecture:** Clean Architecture, MVC, MVVM, Scalable Folder Structure
+- **Tools:** Git, GitHub, Android Studio, VS Code, Postman, Firebase Console
 
 ---
 
-## Projects
+## GSoC 2026 — Open Source Contribution
 
-### Developer Invoice Tracker
-Mobile POS and Shop Management App for local shopkeepers.
+### WebSocket DevTools Profiler
+> **Organization:** Dart | **Project:** Add WebSocket/gRPC Support to Flutter DevTools Network Panel
 
-- Product Management
-- Daily Sales Management  
-- Invoice Generation
-- POS Bill Printing
+Built a working instrumentation layer demonstrating how WebSocket traffic can be surfaced in Flutter DevTools — using the same `dart:developer` Timeline mechanism that HTTP profiling uses today.
+
+[![GitHub](https://img.shields.io/badge/GitHub-websocket--devtools--profiler-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah-arain9/websocket-devtools-profiler)
+```
+ID   TIME           DIR    TYPE   BYTES   ELAPSED     PREVIEW
+1    14:06:41.786   sent   text   20B     +22274ms    hello GSOC community
+2    14:06:42.196   recv   text   20B     +22684ms    hello GSOC community
+3    14:06:53.829   sent   text   17B     +34317ms    its Abdullah Here
+4    14:06:54.090   recv   text   17B     +34578ms    its Abdullah Here
+
+Summary: Connections: 1 | Sent: 67B | Received: 67B
+```
+
+**Key decisions:**
+- `ProfileableWebSocket` implements `dart:io` WebSocket — drop-in replacement
+- Events posted via `dart:developer.Timeline.instantSync()` — same as HTTP profiling
+- `WebSocketProfiler` registry manages multiple simultaneous connections
+- 9 unit tests passing — no network required (MockWebSocket)
+
+---
+
+## Featured Projects
+
+### Developer Invoice Tracker — Mobile POS & Shop Management App
+
+A real-world mobile application for local shopkeepers to digitize their business operations through a single mobile device.
+
+**Key Features:**
+- Product & Daily Sales Management
+- Invoice Generation & POS Bill Printing
+- Sales History Tracking
 - Thermal Printer Integration
+- Shop Management System
 
-**Stack:** Flutter, Dart, Firebase, Provider
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 
 ---
 
 ## GitHub Stats
 
-![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark)
+![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark)
-
----
-
-## Connect
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:abdullah@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/abdullah-arain9)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark&hide_border=true)
 
 ---
 
-> Currently focused on open source contribution through GSoC 2026
-> with the Dart organization.
+## Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-arain9)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arainabdullah225@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah-arain9)
+
+---
+
+> "I build mobile experiences that are fast, scalable, and production-ready — and contribute to open source to make developer tools better for everyone."
