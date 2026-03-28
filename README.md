@@ -1,8 +1,8 @@
 <div align="center">
 
-# Abdullah Arain
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=02569B&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Abdullah+Arain;Full+Stack+Flutter+Developer;GSoC+2026+Applicant+%7C+Dart+Org;Open+Source+Contributor+%F0%9F%9A%80" alt="Typing SVG" />
 
-**Full Stack Flutter Developer · GSoC 2026 Applicant · Open Source Contributor**
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-arain9)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:arainabdullah225@gmail.com)
@@ -14,7 +14,7 @@
 
 ## 👨‍💻 About Me
 
-<img align="right" alt="Coding" width="340" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
+<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 ```dart
 class Abdullah extends FlutterDeveloper {
@@ -49,6 +49,8 @@ I'm a Flutter developer from Karachi building production-ready mobile apps with 
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 **Mobile & Language**
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -67,7 +69,11 @@ I'm a Flutter developer from Karachi building production-ready mobile apps with 
 ![REST API](https://img.shields.io/badge/REST%20API-FF5733?style=for-the-badge&logo=postman&logoColor=white)
 ![Provider](https://img.shields.io/badge/Provider-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
 
 ---
 
@@ -160,11 +166,10 @@ Full shopping experience with REST API backend, cart management, order tracking,
 
 <div align="center">
 
-![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abdullah-arain9&theme=dark&hide_border=true" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark&hide_border=true&langs_count=6)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=abdullah-arain9&theme=dark&hide_border=true)
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark&hide_border=true&langs_count=6" />
 
 </div>
 
