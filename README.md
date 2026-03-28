@@ -15,41 +15,18 @@
 ## 👨‍💻 About Me
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=02569B&center=true&vCenter=true&width=800&height=28&lines=Flutter+Developer+from+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;Building+production-ready+mobile+apps+since+2023;GSoC+2026+Applicant+%E2%80%94+Dart+%7C+Flutter+DevTools;WebSocket+%2B+gRPC+Network+Profiling+for+DevTools;Clean+Architecture+%7C+Firebase+%7C+REST+APIs;Open+to+Remote+%7C+Freelance+%7C+Full-Time+%F0%9F%9A%80" alt="About Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1400&color=02569B&center=true&vCenter=true&width=800&height=28&lines=Flutter+Developer+from+Karachi%2C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;GSoC+2026+Applicant+%E2%80%94+Dart+%7C+Flutter+DevTools;WebSocket+%2B+gRPC+Network+Profiling+for+DevTools;Clean+Architecture+%7C+Firebase+%7C+REST+APIs;Building+apps+that+solve+real-world+problems+%F0%9F%9A%80;Open+to+Remote+%7C+Freelance+%7C+Full-Time" alt="About Typing" />
 </div>
 
 <br/>
 
-```dart
-class Abdullah extends FlutterDeveloper {
+I'm a **Full-Stack Mobile App Developer** from Karachi, Pakistan with strong expertise in **Flutter & Dart**, specializing in building scalable, production-ready mobile applications.
 
-  final String name     = "Abdullah Arain";
-  final String role     = "Full Stack Flutter Developer";
-  final String location = "Karachi, Pakistan 🇵🇰";
+From **frontend mobile apps with Flutter** to **Firebase backends and REST APIs**, I focus on delivering efficient, future-ready solutions that drive meaningful results for users and businesses alike. Currently applying for **Google Summer of Code 2026** with the Dart organization — working on adding WebSocket/gRPC support to Flutter DevTools.
 
-  final Map<String, String> gsoc2026 = {
-    "org"     : "Dart",
-    "project" : "WebSocket/gRPC Support — Flutter DevTools",
-    "status"  : "Actively contributing 🔥",
-  };
+I'm passionate about building products that solve real-world problems, with a strong focus on **performance, clean architecture, and usability**.
 
-  final List<String> currentFocus = [
-    "GSoC 2026 — Dart DevTools Network Panel",
-    "WebSocket/gRPC Network Profiling",
-    "Mobile POS Systems",
-  ];
-
-  final List<String> openTo = [
-    "Remote Jobs",
-    "Freelancing",
-    "Open Source",
-    "Full-Time",
-  ];
-
-  String get funFact =>
-    "I digitize local shops one app at a time 🏪";
-}
-```
+> 🔥 GSoC 2026 · Dart Org · WebSocket/gRPC Network Profiling for Flutter DevTools
 
 ---
 
@@ -111,18 +88,22 @@ Summary → Connections: 1  |  Sent: 67B  |  Received: 67B
 - `WebSocketProfiler` registry handles multiple simultaneous connections
 - 9 unit tests, all passing — no network required (MockWebSocket)
 
-**Next steps (in progress):**
-- [ ] gRPC channel instrumentation layer
+**Roadmap:**
+- [x] WebSocket instrumentation layer
+- [x] 9 unit tests passing
+- [ ] gRPC channel instrumentation
 - [ ] DevTools panel UI — message timeline & byte counters
 - [ ] Stream diffing for large binary frames
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 📱 Developer Invoice Tracker — Mobile POS & Shop Management
+### ✅ Developer Invoice Tracker — Mobile POS & Shop Management
 
-A production-level mobile POS system built for local shopkeepers to fully digitize their business — no expensive desktop software or hardware needed.
+> **Status: Shipped · Used by local shopkeepers in Karachi**
+
+A production-level mobile POS system that fully digitizes shop operations — no expensive desktop software or hardware needed.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
@@ -148,23 +129,55 @@ lib/
 
 ---
 
-### 💬 Real-Time Chat App *(in progress)*
+### 🔨 Real-Time Chat App
 
-End-to-end real-time messaging with Firebase backend, Google sign-in, image sharing, and push notifications.
+> **Status: Currently Building**
+
+End-to-end real-time messaging app with Firebase Firestore, Google sign-in, media sharing, and push notifications. Focused on smooth UX and offline-first behaviour.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=flat-square&logo=firebase&logoColor=white)](https://firebase.google.com)
 
+- 🔐 Firebase Auth — email + Google sign-in
+- ⚡ Real-time messages via Firestore streams
+- 🖼️ Image & media sharing via Firebase Storage
+- 🔔 FCM push notifications
+- 📴 Offline message caching with Hive
+
 ---
 
-### 🛒 E-Commerce App *(in progress)*
+### 🔨 E-Commerce App
 
-Full shopping experience with REST API backend, cart management, order tracking, and secure auth.
+> **Status: Currently Building**
+
+Full mobile shopping experience with REST API backend, cart management, order tracking, and secure authentication.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
 [![REST API](https://img.shields.io/badge/REST%20API-FF5733?style=flat-square&logo=postman&logoColor=white)](https://pub.dev/packages/http)
 [![Provider](https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white)](https://pub.dev/packages/provider)
+
+- 🔍 Product search, filtering & categories
+- 🛍️ Cart & wishlist with local persistence
+- 📦 Order placement & tracking
+- 🔑 JWT-based secure auth
+- 💳 Clean multi-step checkout flow
+
+---
+
+### 🌍 Flutter DevTools — Open Source Contribution
+
+> **Status: Actively Contributing · GSoC 2026**
+
+Contributing to the official **Flutter DevTools** project by building WebSocket and gRPC profiling support for the Network Panel — making it easier for every Flutter developer to debug real-time connections.
+
+[![Flutter DevTools](https://img.shields.io/badge/Flutter-DevTools-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/flutter/devtools)
+[![Dart](https://img.shields.io/badge/Dart-Open%20Source-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev)
+
+- 🔧 Drop-in `ProfileableWebSocket` wrapper for `dart:io`
+- 📡 Timeline events via `dart:developer` — same as HTTP profiler
+- ✅ 9 unit tests, zero network dependency
+- 📋 Proposal submitted to Dart GSoC 2026 org
 
 ---
 
@@ -172,10 +185,7 @@ Full shopping experience with REST API backend, cart management, order tracking,
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abdullah-arain9&theme=dark&hide_border=true" />
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=abdullah-arain9&theme=dark&hide_border=true)
 
 </div>
 
