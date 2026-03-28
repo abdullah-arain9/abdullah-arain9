@@ -1,93 +1,112 @@
-# Hi, I'm Abdullah Arain 👋
+<div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=abdullah-arain9&label=Profile%20Views&color=0e75b6&style=flat-square)
+# Hey, I'm Abdullah Arain 👋
 
-💻 Flutter Developer | GSoC 2026 Applicant | Dart Open Source Contributor  
-Building scalable, production-ready mobile applications with clean architecture and real-world impact.
+**Full Stack Flutter Developer** · Building mobile apps that *actually* solve real problems
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:abdullah@email.com)
+
+</div>
 
 ---
 
 ## About Me
 
-I am **Abdullah Arain**, a **Full Stack Flutter Developer** from **Karachi, Pakistan** with hands-on experience building production-level mobile applications using **Flutter and Dart**.
+I'm a Flutter developer based in **Karachi, Pakistan**, focused on building production-ready mobile applications. I specialize in turning real business problems into clean, scalable apps — from architecture to deployment.
 
-Currently applying for **Google Summer of Code 2026** with the **Dart organization** — working on adding **WebSocket/gRPC support** to the Flutter DevTools Network Panel.
-
-Alongside app development, I have shipped real-world business solutions including a **Mobile POS and Shop Management System** used by local shopkeepers to digitize their operations.
+- 🔨 Currently building: **POS & shop management systems for local businesses**
+- 🌱 Always learning: Advanced Flutter patterns, performance optimization
+- 💼 Open to: Remote jobs · Freelance · Full-time opportunities
+- 📍 Based in: Karachi, Pakistan
 
 ---
 
 ## Tech Stack
 
-- **Mobile:** Flutter, Dart, Responsive UI, Material Design, Custom Widgets
-- **State Management:** Provider, ChangeNotifier, App State Management
-- **Backend & Services:** Firebase Auth, Cloud Firestore, Firebase Storage, Realtime Database
-- **API:** REST API Integration, JSON Parsing, HTTP Requests
-- **Database:** Firestore, Hive, SQLite, Local Storage
-- **Architecture:** Clean Architecture, MVC, MVVM, Scalable Folder Structure
-- **Tools:** Git, GitHub, Android Studio, VS Code, Postman, Firebase Console
+**Mobile**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+
+**State Management**
+
+![Provider](https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white)
+![ChangeNotifier](https://img.shields.io/badge/ChangeNotifier-02569B?style=flat-square&logo=dart&logoColor=white)
+
+**Backend & Database**
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=flat-square&logo=firebase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Hive](https://img.shields.io/badge/Hive-FFB300?style=flat-square&logo=hive&logoColor=black)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ---
 
-## GSoC 2026 — Open Source Contribution
+## Featured Project
 
-### WebSocket DevTools Profiler
-> **Organization:** Dart | **Project:** Add WebSocket/gRPC Support to Flutter DevTools Network Panel
+### 📱 Developer Invoice Tracker — Mobile POS & Shop Management
 
-Built a working instrumentation layer demonstrating how WebSocket traffic can be surfaced in Flutter DevTools — using the same `dart:developer` Timeline mechanism that HTTP profiling uses today.
+> A production-level app helping local shopkeepers **go fully digital** — no expensive desktop software needed.
 
-[![GitHub](https://img.shields.io/badge/GitHub-websocket--devtools--profiler-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah-arain9/websocket-devtools-profiler)
-```
-ID   TIME           DIR    TYPE   BYTES   ELAPSED     PREVIEW
-1    14:06:41.786   sent   text   20B     +22274ms    hello GSOC community
-2    14:06:42.196   recv   text   20B     +22684ms    hello GSOC community
-3    14:06:53.829   sent   text   17B     +34317ms    its Abdullah Here
-4    14:06:54.090   recv   text   17B     +34578ms    its Abdullah Here
+| Feature | Details |
+|---|---|
+| 🛒 POS System | Mobile-based billing & checkout |
+| 🧾 Invoice Generation | Auto-generated invoices with shop branding |
+| 🖨️ Thermal Printing | Direct printing via Bluetooth thermal printer |
+| 📦 Product Management | Full inventory tracking |
+| 📊 Sales History | Daily sales reports & analytics |
+| 🏪 Shop Management | Single-app business dashboard |
 
-Summary: Connections: 1 | Sent: 67B | Received: 67B
-```
+**Stack:** Flutter · Dart · Firebase · Provider · REST API · Thermal Printer SDK
 
-**Key decisions:**
-- `ProfileableWebSocket` implements `dart:io` WebSocket — drop-in replacement
-- Events posted via `dart:developer.Timeline.instantSync()` — same as HTTP profiling
-- `WebSocketProfiler` registry manages multiple simultaneous connections
-- 9 unit tests passing — no network required (MockWebSocket)
+**Impact:** Digitized operations for local shopkeepers who previously relied on manual ledgers or expensive POS hardware.
 
 ---
 
-## Featured Projects
+## Architecture & Approach
 
-### Developer Invoice Tracker — Mobile POS & Shop Management App
+```
+lib/
+├── core/           # Shared utilities, constants, theme
+├── data/           # Repositories, models, API clients
+├── domain/         # Business logic, use cases
+├── presentation/   # UI screens, widgets, providers
+└── main.dart
+```
 
-A real-world mobile application for local shopkeepers to digitize their business operations through a single mobile device.
-
-**Key Features:**
-- Product & Daily Sales Management
-- Invoice Generation & POS Bill Printing
-- Sales History Tracking
-- Thermal Printer Integration
-- Shop Management System
-
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+I follow **Clean Architecture** with clear separation of concerns — making codebases easy to test, scale, and hand off.
 
 ---
 
 ## GitHub Stats
 
-![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdullah-arain9&show_icons=true&theme=dark&hide_border=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-arain9&layout=compact&theme=dark&hide_border=true)
+![Abdullah's GitHub stats](https://github-readme-stats.vercel.app/api?username=abdullah&show_icons=true&theme=default&hide_border=true&count_private=true)
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah&layout=compact&theme=default&hide_border=true)
 
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-arain9)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arainabdullah225@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah-arain9)
+</div>
 
 ---
 
-> "I build mobile experiences that are fast, scalable, and production-ready — and contribute to open source to make developer tools better for everyone."
+## Let's Connect
+
+I'm open to collaborating on Flutter projects, freelance work, or remote full-time roles.
+
+📧 **abdullah@email.com** · 🔗 **[linkedin.com/in/abdullah](https://linkedin.com/in/abdullah)**
+
+<div align="center">
+
+*"Good code is not just code that works — it's code that lasts."*
+
+</div>
